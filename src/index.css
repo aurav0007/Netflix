@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(56, 61, 63, 0.806);
+  font-family: 'Trispace', sans-serif;
+
+}
+.heading {
+  padding: 30px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: gainsboro;
+  margin-bottom: 20px;
+}
+.choice {
+  display: flex;
+  justify-content: center;
+  
+}
+.all_cards {
+  
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+ 
+ 
+}
+.card {
+  margin: 5%;
+  height: 400px;
+  width: 19%;
+
+
+  border-radius: 12px;
+  overflow: hidden;
+  
+  transition: transform 250ms linear;
+  background-color: gainsboro;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  height: 75%;
+  width: 100%;
+}
+.card_info {
+  background-color: gainsboro;
+  height: 22%;
+  display: flex ;
+  flex-direction: column;
+  
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card_info h3 {
+
+  background-color: gainsboro;
+}
+.card_info a {
+  background-color:gainsboro ;
+}
+.card_category {
+  font-size: 1 rem;
+  background-color: gainsboro;
+}
+.btn {
+  padding: 5px;
+    /* margin-top: 0px; */
+    margin:5px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: gainsboro;
+    font-size: 15px;
+    border:1px solid #fff;
+  
+    
+}
